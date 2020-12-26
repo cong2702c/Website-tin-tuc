@@ -1,0 +1,218 @@
+* {
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+
+.w-100 {
+	width: 100%;
+}
+
+body {
+	font-size: 14px;
+	font-family: 'Roboto';
+}
+.header_nav .navbar {
+	flex-direction: column;
+	align-items: flex-start;
+	padding: 0;
+}
+
+
+.navbar-collapse {
+	border-bottom: 1px solid #cccccc;
+}
+
+.navbar-collapse .navbar-nav .nav-link {
+	text-transform: uppercase;
+	color: #5b5150;
+	font-size: 14px;
+    font-weight: 500;
+    font-family: 'Roboto';
+	padding: 21.5px 15px 21.5px 18px;
+	position: relative;
+}
+
+.navbar-collapse .navbar-nav .logo-img img{
+    padding-top: 15px;
+    width: 100%;
+    padding-right: 20px;
+}
+
+.navbar-collapse ul li a:after {
+	width: 0%;
+	transition: width 0.5s ease;
+	content: '';
+	position: absolute;
+	height: 5px;
+	display: block;
+	background-color: #01a050;
+	left: 10%;
+	bottom: 0;
+}
+.navbar-collapse ul li a:hover:after {
+	width: 80%;
+}
+
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link, .navbar-collapse .navbar-nav .nav-link:hover {
+	color: #01a050;
+}
+/*header bottom*/
+.header-bottom >p {
+    padding: 10px 0;
+    font-size: 14px;
+    font-weight: 300;
+    font-family: 'Roboto';
+    color: #454545;
+    background-color: #f3f3f3;
+    padding-left: 120px;
+}
+/*Main*/
+.news {
+    padding-top: 30px;
+}
+.news-top {
+    display: flex;
+}
+.news-top >a >img {
+    padding-right: 20px;
+}
+.news-top .news-top-item >a{
+    font-size: 24px;
+    font-weight: 600;
+    font-family: 'Roboto';
+    color: #000000;
+    text-decoration: none;
+}
+.news-top .news-top-item >a:hover{
+    color: #01a050;
+}
+.news-top .news-top-item >p{
+    font-size: 15px;
+    font-weight: 400;
+    font-family: 'Roboto';
+    color: #3f3f3f;
+}
+/*---------------------------------*/
+.news-bottom {
+    display: flex;
+}
+.news-bottom >a:last-of-type {
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: bold;
+    font-family: 'Roboto';
+    color: #000000;
+    padding-left: 20px;
+}
+.news-bottom >a:last-of-type:hover {
+    color: #01a050;
+}
+.news-border {
+    border-bottom: 1px solid #01a050;
+    padding-top: 40px;
+}
+/*---------------------*/
+.news-main {
+    display: flex;
+    padding-top: 40px;
+}
+.news-main .news-main-item {
+    padding-left: 15px;
+}
+.news-main-item >a {
+    font-size: 16px;
+    font-weight: 600;
+    color: #222222;
+    font-family: 'Roboto';
+}
+.news-main-item >a:hover {
+    color: #01a050;
+}
+.news-main-item >div {
+    font-size: 12px;
+    font-weight: 300;
+    font-family: 'Roboto';
+    color: #959595;
+}
+.news-main-item >p {
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'Roboto';
+    color: #3f3f3f;
+}
+/*Next trang khác*/
+.pages {
+    padding-top: 50px;
+    padding-left: 275px;
+}
+.pages .page-item .page-link{
+    color: #000000;
+    margin-left: 10px;
+}
+.page-item .active{
+    background-color: #01a050;
+    color: #f3f3f3 !important;
+}
+.page-item >a:hover {
+    background-color: #01a050;
+    color: #f3f3f3 !important;
+}
+/*---------------------------------*/
+/*Nội dung cột phải ngoài cùng chứa Ads*/
+.news .row >div:nth-child(2) >h4 {
+    font-size: 21px;
+    font-weight: 600;
+    font-family: 'Roboto';
+    color: #000000;
+    padding-top: 50px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #01a050;
+}
+.content {
+    display: flex;
+    padding-top: 10px;
+}
+.content >a:last-of-type {
+    font-size: 13px;
+    font-weight: 400;
+    font-family: 'Roboto';
+    color: #000000;
+    text-decoration: none;
+    padding-left: 20px;
+}
+.content >a:last-of-type:hover {
+    color: #01a050;
+}
+
+/*-------------------------*/
+/*Footer*/
+footer {
+    padding-top:80px;
+}
+.footer-top {
+    background-color: #01a050;
+}
+.footer_title >h2 {
+    font-size: 21px;
+    font-weight: 600;
+    font-family: 'Roboto';
+    color: #fefefe;
+    padding-top: 45px;
+    padding-bottom: 10px;
+}
+.footer_block_item p {
+    font-size: 15px;
+    font-weight: 300;
+    font-family: 'Roboto';
+    color: #fefefe;
+}
+.footer_bottom >p {
+    background-color: #222222;
+    padding: 10px 0;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 300;
+    font-family: 'Roboto';
+    color: #fefefe;
+}
